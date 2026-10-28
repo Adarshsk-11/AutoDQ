@@ -1,0 +1,111 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[left=0.65in,right=0.65in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{graphicx}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\setlist[itemize]{leftmargin=*,itemsep=2pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+%==================== HEADER ====================
+
+\begin{minipage}[t]{0.74\textwidth}
+\vspace{0pt}
+
+{\LARGE\textbf{CHANDRA THANAYA V}}\\[8pt]
+
+Bangalore, India\\[2pt]
++91 91138 88605\\[2pt]
+\href{mailto:chandrathanaya0@gmail.com}{chandrathanaya0@gmail.com}\\[2pt]
+\href{https://www.linkedin.com/in/chandra-thanaya-82a184287/}{LinkedIn}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+\vspace{-8pt}
+\raggedleft
+\includegraphics[width=3.2cm,height=4cm]{photo.jpg}
+\end{minipage}
+
+\vspace{0.25cm}
+
+%================================================
+
+\section*{Professional Summary}
+
+Computer Science and Engineering undergraduate with hands-on experience in Full Stack Development, AI-powered applications, and UNIX system programming. Skilled in building scalable web applications, machine learning pipelines, and operating system projects using C++, Python, React, Node.js, and modern web technologies. Passionate about solving real-world problems through software engineering and AI.
+
+\section*{Education}
+
+\textbf{BMS Institute of Technology and Management}\\
+Bachelor of Engineering in Computer Science and Engineering
+\hfill Aug 2023 -- Present
+
+\begin{itemize}
+\item CGPA: 8.23/10
+\item Expected Graduation: May 2027
+\item Relevant Coursework: Data Structures \& Algorithms, Object-Oriented Programming, DBMS, Operating Systems, Computer Networks, Machine Learning.
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{AutoDQ -- Data-Centric Dataset Quality \& Model Readiness Framework}
+
+\begin{itemize}
+\item Built a full-stack platform that automatically evaluates tabular dataset reliability and predicts baseline ML model performance from uploaded CSV/XLSX/JSON files.
+\item Designed a modular analysis engine (ingestion, profiling, quality metrics, issue detection, DQI scoring, recommendations, baseline ML) with a weighted Data Quality Index and detectors for missing values, duplicates, outliers, class imbalance, redundant features, and data leakage.
+\item Developed a FastAPI backend with pandas/NumPy/SciPy/Scikit-learn and a React + Vite + Tailwind frontend covering a 6-page analysis flow, backed by 27+ unit tests.
+\item Tech: Python, FastAPI, Pandas, NumPy, SciPy, Scikit-learn, React, Vite, Tailwind CSS.
+\end{itemize}
+
+\textbf{Second-Hand Car Price Prediction}
+
+\begin{itemize}
+\item Built a machine learning system to predict resale prices of used cars based on features such as make, model, year, mileage, fuel type, and ownership history.
+\item Performed data cleaning, feature engineering, and exploratory data analysis on real-world automotive listing data to improve model accuracy.
+\item Trained and evaluated regression models (Linear Regression, Random Forest) using Scikit-learn, comparing performance with metrics such as R\textsuperscript{2} and RMSE.
+\item Developed a web interface for users to input car details and receive instant price predictions.
+\item Tech: Python, Scikit-learn, Pandas, NumPy, Matplotlib, Flask/React.
+\end{itemize}
+
+\textbf{UNIX Shell Replica}
+
+\begin{itemize}
+\item Developed a modular UNIX Shell in C++ implementing command parsing, process creation, file I/O redirection, pipeline execution, and signal handling using POSIX system calls.
+\item Built built-in commands (\texttt{cd}, \texttt{pwd}, \texttt{history}), custom utilities, and background process execution to replicate essential UNIX shell functionalities.
+\item Tech: C++, Linux, POSIX APIs (\texttt{fork}, \texttt{execvp}, \texttt{pipe}, \texttt{dup2}, \texttt{waitpid}).
+\end{itemize}
+
+\section*{Technical Skills}
+
+\textbf{Languages:} C, C++, Python, JavaScript, TypeScript, SQL
+
+\textbf{Frontend:} HTML5, CSS3, React.js, Three.js, Tailwind CSS
+
+\textbf{Backend:} Node.js, Express.js, Flask, FastAPI, REST APIs
+
+\textbf{AI / ML:} NumPy, Pandas, SciPy, Scikit-learn, Matplotlib, Regression Modeling, Feature Engineering, RAG, LLM APIs
+
+\textbf{Core CS:} Data Structures \& Algorithms, Object-Oriented Programming, DBMS, Operating Systems, Computer Networks
+
+\textbf{Tools:} Git, GitHub, Linux, VS Code, Microsoft Office
+
+\section*{Certifications}
+
+\begin{itemize}
+\item Supervised Machine Learning: Regression and Classification -- Stanford University / DeepLearning.AI
+\item Advanced Learning Algorithms -- Stanford University / DeepLearning.AI
+\item Unsupervised Learning, Recommenders \& Reinforcement Learning -- Stanford University / DeepLearning.AI
+\item Project Management with Agile -- Infosys Springboard
+\item Overview of Agile \& DevOps -- Infosys Springboard
+\end{itemize}
+
+\end{document}
